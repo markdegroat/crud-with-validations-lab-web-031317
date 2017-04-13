@@ -1,0 +1,24 @@
+<table>
+  <tbody>
+  <% @songs.each do |song| %>
+
+
+        <tr>
+          <td><%= link_to(song.title, song) %></td>
+        </tr>
+
+
+  <% end %>
+  </tbody>
+</table>
+
+
+
+<tr>
+  <th>Month</th>
+  <th>Savings</th>
+</tr>
+<tr>
+  <td>January</td>
+  <td>$100</td>
+</tr>
